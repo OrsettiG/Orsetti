@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <link rel="stylesheet" type="text/css" href="css/nightmode.css">
+  <link rel="stylesheet" type="text/css" href="./slick/slick.css" />
+  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+  <script type="text/javascript" src="./js/jquery-3.3.1.js"></script>
+  <script src="./js/main.js"></script>
+  <meta charset="utf-8">
+  <title>Write | Publish Bluesky</title>
+</head>
+
+<body>
+  <div id="container">
+    <header>
+      <div class="logo">
+        <h1><a href="../index.html">BlueSky</a></h1>
+        <h4><a href="../reading.html">read online</a> | <a href="dashboard.html">write online</a></h4>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="dashboard.html">Dash</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="tools.html">Tools</a></li>
+          <li><a class="active" href="write.html">Write</a>
+            <li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <h3>Start Writing here</h3>
+      <form class="write" action="index.html" method="post">
+        <div class="">
+          <label>Chapter Title</label><br>
+          <input type="text" name="title" value="" placeholder="Chapter Title"><br>
+        </div>
+        <div class="">
+          <label>Chapter Body</label>
+          <textarea name="chapter" rows="8" cols="80" placeholder="Start writing here"></textarea>
+        </div>
+        <button type="submit" name="save">Save</button>
+      </form>
+    </main>
+
+    <aside class="sidebar">
+      <h4>Chapter list</h4>
+      <ol>
+        <li><a href="#">Chapter Name</a></li>
+        <li><a href="#">Chapter Name</a></li>
+        <li><a href="#">Chapter Name</a></li>
+        <li><a href="#">Chapter Name</a></li>
+        <li><a href="#">Chapter Name</a></li>
+      </ol>
+    </aside>
+
+  </div>
+</body>
+
+</html>
